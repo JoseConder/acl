@@ -29,7 +29,7 @@ ACL
 Para esta parte del proyecto en concreto se tiene como objetivo implementar una de las dos estructuras de seguridad ACL
 Las características están definidas en los siguientes diagramas de clases:
 
-![Diagrama de Clases](resources/DiagramaDeClases.png)
+![Diagrama de Clases](resources/DiagramaDeClases2.png)
 
 Los principales cambios se encuentran en ./models/users, ./models/permissions, ./acl.js, ./controllers/users y en las rutas especificamente se implemento es: ./routes/movies
     
