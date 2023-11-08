@@ -22,14 +22,14 @@ Para el uso de la rama ODM es necesario usar una base de datos Documentacional N
 
 Este proyecto se basa en el siguiente Diagrama de clases para crear los diferentes controladores y modelos:
 
-![Diagrama de Clases](resources/Diagrama de clases.png)
+![Diagrama de Clases](resources/Diagramadeclases.png)
 
 ACL
 
 Para esta parte del proyecto en concreto se tiene como objetivo implementar una de las dos estructuras de seguridad ACL
 Las características están definidas en los siguientes diagramas de clases:
 
-![Diagrama de Clases](resources/Diagrama de clases2.png)
+![Diagrama de Clases](resources/DiagramaDeClases.png)
 
 Los principales cambios se encuentran en ./models/users, ./models/permissions, ./acl.js, ./controllers/users y en las rutas especificamente se implemento es: ./routes/movies
     
