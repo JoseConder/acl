@@ -5,7 +5,7 @@ const { checkPermission } = require('../acl');
 
 router.post('/', checkPermission('Create'), controller.create)
 
-router.get('/', checkPermission('Read'),controller.list);
+router.get('/', checkPermission('Read'), controller.list);
 
 router.get('/:id', checkPermission('Read'),controller.index);
 

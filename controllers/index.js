@@ -24,7 +24,7 @@ function login(req,res,next){
                 if (hash === user.password) {
                     const token = jwt.sign(
                         {
-                            id: user._id,  
+                            id: user.id,  
                             data: user.data,
                             exp: Math.floor(Date.now() / 1000) + 240
                         },

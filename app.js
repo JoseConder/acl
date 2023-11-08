@@ -46,8 +46,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 //
 
 app.use(expressjwt({secret:JwtKey, algorithms:['HS256']})
-.unless({path:["/login", "/users"]}))
-
+.unless({path:["/login", "/users", "/users/:id"]}))
 
 //middleware de ruteo
 app.use('/', indexRouter);
